@@ -72,7 +72,6 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    console.log('Hi improved the skills')
     res.send('Hello Md. Ahsan Ullah form Bangladesh');
 });
 
