@@ -74,6 +74,9 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
     res.send('Hello updated');
 });
+app.get('/hello', (req, res) => {
+    res.send('Hi, Md. Ahsan Ullah');
+})
 
 app.listen(port, () => {
     console.log('Hitting the port', port);
