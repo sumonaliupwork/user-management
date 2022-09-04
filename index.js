@@ -75,7 +75,7 @@ app.get('/', (req, res) => {
     res.send('Hello updated');
 });
 app.get('/hello', (req, res) => {
-    res.send('Hi, Md. Ahsan Ullah');
+    res.send('Hello world');
 })
 
 app.listen(port, () => {
